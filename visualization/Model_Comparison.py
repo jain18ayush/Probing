@@ -45,7 +45,7 @@ ax.bar(bar2, value2, bar_width, label='Accuracy')
 # Add labels and title
 ax.set_xlabel('Model-Prompt Combinations', fontsize=12)
 ax.set_ylabel('Values', fontsize=12)
-ax.set_title('Bar Plot of Model-Prompt Combinations with Combined Sentences', fontsize=14)
+ax.set_title('Bar Plot of Model-Prompt Combinations with Discrete Sentences', fontsize=14)
 
 # Set x-axis ticks with processed model names
 ax.set_xticks([r + bar_width / 2 for r in range(len(model_prompts))], model_prompts, rotation=90)
